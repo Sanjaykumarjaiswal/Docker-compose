@@ -1,0 +1,13 @@
+##manual Installatio
+-install nodejs locally()
+-clone the repo
+-Install dependencies(npm install)
+-Start the DB locally
+    -doscker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgre
+    or
+    -go to neon.tech and get yourself a new db
+-change the .env file and update your db credentials
+-npx prisma migrate
+-npx prsima generate
+-npm run build
+-npm run start
